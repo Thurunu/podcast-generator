@@ -3,6 +3,7 @@ FROM python:3.12.9-alpine3.21
 # Install dependencies
 RUN apk update \
     apk add git
+RUN gitt --version
 
 # Install Python dependencies
 RUN pip install PyYAML
